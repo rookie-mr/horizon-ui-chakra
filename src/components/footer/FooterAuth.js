@@ -25,7 +25,7 @@ export default function Footer() {
       }}
       justifyContent='space-between'
       px={{ base: "30px", md: "0px" }}
-      pb='30px'>
+      pb='20px'>
       <Text
         color={textColor}
         textAlign={{
@@ -36,15 +36,16 @@ export default function Footer() {
         {" "}
         &copy; {1900 + new Date().getYear()}
         <Text as='span' fontWeight='500' ms='4px'>
-          Horizon UI. All Rights Reserved. Made with love by
+          zhangguangpu. All Rights Reserved. 京ICP备
           <Link
             mx='3px'
             color={textColor}
-            href='https://www.simmmple.com?ref=horizon-chakra-free'
+            href='http://beian.miit.gov.cn'
             target='_blank'
             fontWeight='700'>
-            Simmmple!
+            2021039826
           </Link>
+          号
         </Text>
       </Text>
       <List display='flex'>
@@ -56,7 +57,7 @@ export default function Footer() {
           <Link
             fontWeight='500'
             color={linkColor}
-            href='mailto:hello@simmmple.com?ref=horizon-chakra-free'>
+            href='mailto:guangpu.zhang@gmail.com'>
             Support
           </Link>
         </ListItem>
@@ -68,7 +69,7 @@ export default function Footer() {
           <Link
             fontWeight='500'
             color={linkColor}
-            href='https://www.simmmple.com/licenses?ref=horizon-chakra-free'>
+            href='https://www.zhanggp.top/licenses'>
             License
           </Link>
         </ListItem>
@@ -80,7 +81,7 @@ export default function Footer() {
           <Link
             fontWeight='500'
             color={linkColor}
-            href='https://simmmple.com/terms-of-service?ref=horizon-chakra-free'>
+            href=''>
             Terms of Use
           </Link>
         </ListItem>
@@ -88,7 +89,7 @@ export default function Footer() {
           <Link
             fontWeight='500'
             color={linkColor}
-            href='https://www.blog.simmmple.com/?ref=horizon-chakra-free'>
+            href=''>
             Blog
           </Link>
         </ListItem>
